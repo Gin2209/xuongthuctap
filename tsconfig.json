@@ -1,9 +1,11 @@
 {
   "compilerOptions": {
+    
     "outDir": "./js",
     "removeComments": true,
     "target": "ES2020",
-    "module": "commonjs"
+    "module": "commonjs",
+    "lib": ["es2015", "dom"]
   },
-  "include": ["./ts/**/*"]
+  "include": ["./ts/**/*", "js/cart.js", "js/productDetail.js"]
 }
