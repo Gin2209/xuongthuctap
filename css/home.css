@@ -1,0 +1,274 @@
+.banner-home {
+  width: 100%;
+  height: 525px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 70px 0;
+  overflow: hidden;
+  position: relative;
+}
+.video-store {
+  width: 100%;
+  height: 525px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.content-banner {
+  display: flex;
+  flex-direction: column;
+}
+
+.content-banner .title-banner {
+  font-size: 70px;
+  font-weight: 300;
+  line-height: 70px;
+  letter-spacing: 0.2em;
+  text-transform: lowercase;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.content-banner .wish-banner {
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 28px;
+  font-family: inherit;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.content-banner .btn-follow {
+  max-width: 200px;
+  background: rgba(255, 255, 255, 0.65);
+  color: black;
+  font-weight: 300;
+  font-size: 22px;
+  border: none;
+  padding: 16px;
+  margin: 70px auto;
+  cursor: pointer;
+}
+
+.content-banner .btn-follow:hover {
+  background: rgba(239, 237, 237, 0.65);
+}
+
+.content-banner .review-store {
+  max-width: 800px;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  font-family: inherit;
+  color: white;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-store {
+  width: 100%;
+  padding: 70px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.title-home {
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 1.3;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.product-store .tab-cate {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.tab-cate .btn-tab:nth-child(2) {
+  margin: 0 20px;
+}
+
+.tab-cate .btn-tab {
+  background: none;
+  border: 1px solid white;
+  padding-bottom: 8px;
+  font-size: 30px;
+  font-weight: 300;
+  color: #999;
+  cursor: pointer;
+}
+
+.tab-cate .active {
+  color: black;
+  border-bottom: 1px solid black;
+}
+
+.list-product {
+  width: 100%;
+  display: flex;
+  margin-top: 20px;
+  overflow-x: scroll;
+}
+
+.list-product .product-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px;
+  border-radius: 20px;
+  border: 1px solid #e2e2e2;
+  text-align: center;
+  margin-right: 16px;
+  text-decoration: none;
+}
+
+.product-item .img-product {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+
+.product-item .name-product {
+  color: black;
+  font-size: 20px;
+}
+
+.product-item .price-product {
+  color: black;
+  margin: 20px 0 0;
+  font-size: 18px;
+}
+
+.product-item .line {
+  background: black;
+  width: 30%;
+  height: 1px;
+  margin: 20px;
+}
+
+.product-item .button-action{
+  display: flex;
+  margin-top: 20px;
+}
+
+.button-action .btn-add{
+  background: rgb(254, 60, 60);
+  color: white;
+  margin-right: 8px;
+  border-radius: 8px;
+  border: none;
+  padding: 12px 24px;
+  cursor: pointer;
+}
+
+.btn-add:hover{
+  background: rgb(252, 15, 15);
+}
+
+.button-action .btn-detail{
+  background: rgb(76, 76, 250);
+  border: none;
+  color: white;
+  border-radius: 8px;
+  padding: 12px 24px;
+  cursor: pointer;
+
+}
+
+.btn-detail:hover{
+  background:rgb(46, 46, 245);
+}
+
+
+.review-perfume {
+  padding: 70px 40px;
+  background: #fcfcfc;
+}
+
+.why-choice {
+  padding: 70px 40px;
+  border-bottom: 1px solid;
+}
+
+.content-choice {
+  display: flex;
+}
+
+.why-choice .choice-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.choice-item .choice-img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+.choice-item .choice-title {
+  margin: 20px auto;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  color: black;
+}
+.choice-item .choice-content {
+  padding: 0 16px;
+}
+
+.banner-store {
+  background-image: url("/assets/banner/store.png");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 80vh;
+}
+
+.info-store{
+    padding: 70px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.address-store{
+    display: flex;
+    align-items: center;
+}
+
+.address-store .icon-info-store{
+    width: 30px;
+    height: 30px;
+    margin-right: 16px;
+}
+
+.phone-mail{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.phone-mail .item-phone-mail{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.item-phone-mail .icon-info-store{
+    height: 30px;
+    margin-right: 16px;
+}

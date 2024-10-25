@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+#header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 60px;
+  position: relative;
+  border-bottom: 1px solid black;
+}
+
+.nav-left {
+  display: flex;
+}
+
+.ul-nav {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+}
+.li-nav {
+  padding: 8px 16px;
+  border-bottom: 1px solid white;
+  cursor: pointer;
+}
+
+.a-nav {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: 300;
+}
+.li-nav:hover {
+  border-bottom: 1px solid black;
+}
+
+.logo-header {
+  flex: 1;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 47%;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+.user-header {
+  width: 20px;
+  height: 20px;
+}
+
+.icon-user {
+  width: 100%;
+  height: 100%;
+}
+
+.user-header:nth-child(2) {
+  margin: 0 15px;
+}
+
+#footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  padding: 40px 140px 80px;
+  background: black;
+  color: white;
+}
+
+.footer-left {
+  text-align: center;
+}
+
+.title-footer {
+  font-weight: 300;
+  font-size: 36px;
+  text-align: center;
+}
+
+.ul-footer {
+  list-style-type: none;
+  margin-top: 20px;
+}
+
+.li-footer {
+  padding: 8px;
+}
+
+.a-footer {
+  text-decoration: none;
+  color: white;
+}
+
+.form-register-member {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+}
+
+.form-register-member .input-email {
+  width: 100%;
+  padding: 8px 4px;
+  border: none;
+  margin-right: 4px;
+  background: rgb(59, 59, 59);
+  border-bottom: 1px solid aliceblue;
+  outline: none;
+  color: white;
+}
+.form-register-member .btn-submit {
+  background: rgb(59, 59, 59);
+  color: white;
+  border: 1px solid white;
+  border-radius: 4px;
+  padding: 4px 16px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.form-register-member .btn-submit:hover {
+  background: white;
+  color: black;
+}
+
+.location-store {
+  margin-top: 20px;
+}
+.design-by {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  background: white;
+  color: black;
+}
